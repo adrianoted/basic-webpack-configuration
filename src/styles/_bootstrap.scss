@@ -1,0 +1,42 @@
+// To import all Bootstrap style
+// @import "~bootstrap/scss/bootstrap";
+
+
+// IMPORT CHUNKS OF STYLE
+
+// Bootstrap required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap Optional
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+
+// Bootstrap grid
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/mixins/grid-framework";
+@import "~bootstrap/scss/mixins/grid";
+
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/spacing";
+
+
+// Bootstrap Custom utilities & mixins
+@import "~bootstrap/scss/utilities/background";
+@import "~bootstrap/scss/mixins/background-variant";
+
+// Bootstrap Custom Components
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/forms";
+
+@import "~bootstrap/scss/modal";
